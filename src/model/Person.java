@@ -1,9 +1,9 @@
 package model;
 
 public class Person {
-    private String name = "";
+    private String name;
     private int age = 0;
-    private String occupation = "";
+    private String occupation;
 
     public Person(String name, int age, String occupation) {
         this.name = name;
@@ -14,5 +14,9 @@ public class Person {
     }
     public void printInfo() {
         System.out.println("Name: " + this.name + "\nAge: " + this.age + "\nOccupation: " + this.occupation);
+    }
+
+    public void birthday() {
+        age++;
     }
 }

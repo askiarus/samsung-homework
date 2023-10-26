@@ -8,6 +8,7 @@ public class Main {
         System.out.println("\nPerson object: " + person + "\n");
 
         Student student = new Student("Askar", 16, "Samsung IT-School");
+        student.birthday();
         student.printInfo();
     }
 }
